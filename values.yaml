@@ -1,0 +1,8 @@
+replicaCount: 1
+
+container:
+  image: docker.io/nlapin/neoflex_demo:latest
+
+service:
+  port: 80
+  type: NodePort
